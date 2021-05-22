@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WineManagerAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WineManager.Controllers.WineBottleController.Get">
+            <summary>
+            Get All bottles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WineManager.Controllers.WineBottleController.Get(System.Int32)">
+            <summary>
+            Get bottle by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WineManager.Controllers.WineBottleController.Post(WineManager.DAL.Domains.WineBottle)">
+            <summary>
+            Create a new bottle
+            </summary>
+            <param name="bottle"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineBottleController.Put(WineManager.DAL.Domains.WineBottle)">
+            <summary>
+            Update bottle
+            </summary>
+            <param name="bottle"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineBottleController.Delete(System.Int32)">
+            <summary>
+            Delete bottle 
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineBottleController.SearchWines(WineManager.BLL.BO.SearchOptions)">
+            <summary>
+            Search bottles 
+            </summary>
+            <param name="option"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.Get">
+            <summary>
+            Get All WineMakers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.Get(System.Int32)">
+            <summary>
+            Get a single winemake by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.Post(WineManager.DAL.Domains.WineMaker)">
+            <summary>
+            Create a wine maker
+            </summary>
+            <param name="wineMaker"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.Put(WineManager.DAL.Domains.WineMaker)">
+            <summary>
+            Update wine maker
+            </summary>
+            <param name="wineMaker"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.AddBottles(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Add bottles to a winemaker
+            </summary>
+            <param name="id"></param>
+            <param name="bottleIDs"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.Delete(System.Int32)">
+            <summary>
+            Delete Winemaker
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:WineManager.Controllers.WineMakerController.RemoveBottle(System.Int32,System.Int32)">
+            <summary>
+            Remove bottles from a wine maker
+            </summary>
+            <param name="id"></param>
+            <param name="bottleID"></param>
+        </member>
+    </members>
+</doc>
