@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WineManager.DAL", "DLL\Wine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WineManager.API", "WineManager\WineManager.API.csproj", "{A249216F-26DA-43EF-8252-A3E27F005431}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineManager.Test", "WineManager.Test\WineManager.Test.csproj", "{6D007DD1-FA09-482D-9159-C85EF885810E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A249216F-26DA-43EF-8252-A3E27F005431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A249216F-26DA-43EF-8252-A3E27F005431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A249216F-26DA-43EF-8252-A3E27F005431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D007DD1-FA09-482D-9159-C85EF885810E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D007DD1-FA09-482D-9159-C85EF885810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D007DD1-FA09-482D-9159-C85EF885810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D007DD1-FA09-482D-9159-C85EF885810E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
