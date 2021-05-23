@@ -6,11 +6,11 @@ using WineManager.Test.Mocks;
 
 namespace WineManager.Test
 {
-   public abstract class TestBase
+   public abstract class UnitTestBase
    {
       protected ServiceProvider ServiceProvider;
 
-      public TestBase() 
+      public UnitTestBase() 
       {
       
       }

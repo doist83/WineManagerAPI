@@ -9,7 +9,7 @@ using System.Linq;
 namespace WineManager.Test
 {
    [TestClass]
-   public class UnitTest_WIneBottleBLL : TestBase
+   public class UnitTest_WIneBottleBLL : UnitTestBase
    {
       [TestMethod]
       public void Test_WineBottleInsert()
